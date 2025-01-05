@@ -1,4 +1,5 @@
-Front Office Management System (FOMS)
+**Front Office Management System (FOMS)**
+
 FOMS is a web-based application designed to manage front office operations, including booking management, client information, and service management. Built using PHP, HTML, Bootstrap, CSS, and various plugins, it provides a seamless and user-friendly experience for handling day-to-day office tasks.
 
 Features
