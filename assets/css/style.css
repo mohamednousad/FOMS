@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  border-right: 2px solid #eef0ed;
+  padding-top: 30px;
+}
+.sidebar a {
+  padding: 20px 26px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #022c3f;
+  color: white;
+}
+.active {
+  background-color: #022c3f;
+  color: white !important;
+}
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-section {
+  margin-top: 30px;
+}
+form {
+  background-color: rgb(255, 255, 255);
+}
+.form-control:focus {
+  border-color: #022c3f56 !important;
+  box-shadow: 0 0 5px rgba(2, 44, 63, 0.171) !important;
+}
+.form-select:focus {
+  border-color: #022c3f56 !important;
+  box-shadow: 0 0 5px rgba(2, 44, 63, 0.171) !important;
+}
+
+.table-bordered td {
+  cursor: pointer;
+}
+
+
